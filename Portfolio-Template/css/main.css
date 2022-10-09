@@ -379,7 +379,7 @@ dt {
 
 a {
     text-decoration: none;
-    color: #444;
+    color: rgb(1, 162, 249);
     -webkit-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear, background-color 0.1s linear;
     -moz-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear, background-color 0.1s linear;
     -ms-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear, background-color 0.1s linear;
@@ -771,7 +771,6 @@ body {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: .2em;
-    margin-top: 0.5em;
 }
 
 .info h4,
@@ -1298,6 +1297,41 @@ footer p {
 }
 
 
+/*Añadidos*/
+
+.texto_perfil {
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+}
+
+.texto_formacion {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.fecha_formacion1 {
+    display: flex;
+    display: inline;
+    text-align: right;
+    padding-left: 23%;
+}
+
+.fecha_formacion2 {
+    display: flex;
+    display: inline;
+    text-align: right;
+    padding-left: 5%;
+}
+
+.fecha_formacion3 {
+    display: flex;
+    display: inline;
+    text-align: right;
+    padding-left: 52.5%;
+}
+
+
 /* media Queries
 
 FOLDING FLUID GRID
@@ -1319,6 +1353,15 @@ Change widths as necessary
     }
     .project-container {
         max-width: 200px;
+    }
+    .fecha_formacion1 {
+        padding-left: 3%;
+    }
+    .fecha_formacion2 {
+        padding-left: 3%;
+    }
+    .fecha_formacion3 {
+        padding-left: 3%;
     }
 }
 
@@ -1398,6 +1441,15 @@ Change widths as necessary
 @media (max-width: 768px) {
     .progress-wrapper {
         margin-bottom: 50px;
+    }
+    .fecha_formacion1 {
+        padding-left: 3%;
+    }
+    .fecha_formacion2 {
+        padding-left: 3%;
+    }
+    .fecha_formacion3 {
+        padding-left: 3%;
     }
 }
 
